@@ -1,5 +1,6 @@
 import React from "react";
-import { Col } from "react-bootstrap";
+import { Col, Nav } from "react-bootstrap";
+
 
 export default function ProjectCard({ title, description, imgUrl }) {
   return (
@@ -10,7 +11,7 @@ export default function ProjectCard({ title, description, imgUrl }) {
           <h4>{title}</h4>
           <span>{description}</span>
           <br/>
-          <button className="btn-view">view project</button>
+          <Nav.Link><button className="btn-view">view project</button></Nav.Link>           
         </div>
       </div>
     </Col>

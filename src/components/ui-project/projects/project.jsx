@@ -3,9 +3,9 @@ import { Col, Container, Nav, Row, Tab } from "react-bootstrap";
 import "./project.css";
 import "./projectCard.js";
 import ProjectCard from "./projectCard.js";
-import anhproj1 from "../../assets/img/img-project-1.png";
-import anhproj2 from "../../assets/img/img-project-2.png";
-import anhproj3 from "../../assets/img/img-project-3.png";
+import anhproj1 from "../../../assets/img/img-project-1.png";
+import anhproj2 from "../../../assets/img/img-project-2.png";
+import anhproj3 from "../../../assets/img/img-project-3.png";
 
 export default function Project() {
   const projects = [

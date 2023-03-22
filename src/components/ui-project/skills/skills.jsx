@@ -3,7 +3,7 @@ import { Col, Row, Container } from "react-bootstrap";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import "./skills.modal.scss";
-import anhtron from "../../assets/img/meter3.svg";
+import anhtron from "../../../assets/img/meter3.svg";
 export default function Skills() {
   const responsive = {
     superLargeDesktop: {

@@ -1,6 +1,6 @@
 import React from 'react'
 import { Container,Row,Col } from 'react-bootstrap'
-import headerimg from"../../assets/img/header-img.svg"
+import headerimg from"../../../assets/img/header-img.svg"
 import "./banner.css"
 export default function Banner() {
   return (

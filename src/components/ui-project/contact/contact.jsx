@@ -2,7 +2,7 @@ import React from 'react'
 import { useState } from 'react'
 import { Col, Container,Form,Row } from 'react-bootstrap'
 import "./contact.css"
-import anhfphi from "../../assets/img/anhphi.jpg"
+import anhfphi from "../../../assets/img/anhphi.jpg"
 export default function Contact() {
   const formInnitialDetails ={
     firstName: '',

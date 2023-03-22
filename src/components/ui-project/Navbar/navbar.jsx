@@ -3,10 +3,10 @@ import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import "./navbar.css";
-import logonav from "../../assets/img/logo.jpg";
-import icon1 from "../../assets/img/icon-nav-1.png";
-import icon2 from "../../assets/img/icon-nav-2.png";
-import icon3 from "../../assets/img/icon-nav-3.png";
+import logonav from "../../../assets/img/logo.jpg";
+import icon1 from "../../../assets/img/icon-nav-1.png";
+import icon2 from "../../../assets/img/icon-nav-2.png";
+import icon3 from "../../../assets/img/icon-nav-3.png";
 
 export default function Navbarr() {
   const [activeLink, setActiveLink] = useState("home");
