@@ -77,7 +77,7 @@ export default function Navbarr() {
               </a>
             </div>
             <button className="vvd" onClick={() => console.log("connect")}>
-              <span>Let's go</span>
+                <span>Let's go</span>
             </button>
           </span>
         </Navbar.Collapse>
