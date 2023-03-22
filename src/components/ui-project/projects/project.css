@@ -128,6 +128,7 @@
   border: 1px solid #aa367c;
   padding: 0 5px;
   border-radius: 5px;
+  color: white;
 }
 .btn-view:hover {
     background: linear-gradient(90.21deg, #aa367c -5.91%, #4a2fbd 111.58%);

@@ -38,16 +38,16 @@ export default function Contact() {
             <form onSubmit={handleSubmit}>
               <Row>
                 <Col sm={6} className="px-1">
-                  <input type="text" value={formDetails.firstName} placeholder="first name" onChange={(e) => onFormUpdate('firstname', e.target.value)} />
+                  <input type="text" placeholder="first name" />
                 </Col>
                 <Col sm={6} className="px-1">
-                  <input type="text" value={formDetails.lastName} placeholder="last name" onChange={(e) => onFormUpdate('lastname', e.target.value)} />
+                  <input type="text" placeholder="last name" />
                 </Col>
                 <Col sm={6} className="px-1">
-                  <input type="email" value={formDetails.email} placeholder="email address" onChange={(e) => onFormUpdate('email', e.target.value)} />
+                  <input type="email" placeholder="email address" />
                 </Col>
                 <Col sm={6} className="px-1">
-                  <input type="tel" value={formDetails.phone} placeholder="phone number" onChange={(e) => onFormUpdate('phone', e.target.value)} />
+                  <input type="tel" placeholder="phone number"/>
                 </Col>
                 <Col className='px-1'>
                   <textarea type="text" row="6" value={formDetails.messager} placeholder="input Message" onChange={(e) => onFormUpdate('messager', e.target.value)} />
